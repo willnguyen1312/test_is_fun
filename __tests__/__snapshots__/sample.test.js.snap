@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should filter admin 1`] = `
+Array [
+  Object {
+    "email": "admin1",
+    "role": "admin",
+  },
+]
+`;
+
+exports[`Should return email 1`] = `
+Array [
+  "admin1",
+  "normal",
+]
+`;
+
+exports[`Should return email of admin 1`] = `
+Array [
+  "admin1",
+]
+`;

@@ -1,0 +1,19 @@
+{
+    "extends": [
+        "airbnb",
+        "cleanjs"
+    ],
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import",
+        "immutable",
+        "jest"
+    ],
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "rules": {
+    }
+}
