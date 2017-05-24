@@ -5,7 +5,15 @@ export const data = [
     email: "admin1"
   },
   {
+    role: "admin",
+    email: "admin2"
+  },
+  {
     role: "normal",
-    email: "normal"
+    email: "normal1"
+  },
+  {
+    role: "normal",
+    email: "normal2"
   }
 ];

@@ -6,18 +6,25 @@ Array [
     "email": "admin1",
     "role": "admin",
   },
+  Object {
+    "email": "admin2",
+    "role": "admin",
+  },
 ]
 `;
 
 exports[`Should return email 1`] = `
 Array [
   "admin1",
-  "normal",
+  "admin2",
+  "normal1",
+  "normal2",
 ]
 `;
 
 exports[`Should return email of admin 1`] = `
 Array [
   "admin1",
+  "admin2",
 ]
 `;

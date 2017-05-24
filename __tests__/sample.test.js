@@ -1,9 +1,29 @@
+/* eslint-disable */
 /*
   eslint fp/no-unused-expression: 0,
   fp/no-nil: 0,
   better/explicit-return: 0
 */
-import { data } from '../data';
+// import { data } from '../data';
+// Happy input
+const data = [
+  {
+    role: "admin",
+    email: "admin1"
+  },
+  {
+    role: "admin",
+    email: "admin2"
+  },
+  {
+    role: "normal",
+    email: "normal1"
+  },
+  {
+    role: "normal",
+    email: "normal2"
+  }
+];
 import { getAdminEmails, getEmail, filterAdmin } from '../sample';
 
 // @ts-ignore
