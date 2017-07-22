@@ -9,22 +9,22 @@
 const data = [
   {
     role: "admin",
-    email: "admin1"
+    email: "admin1",
   },
   {
     role: "admin",
-    email: "admin2"
+    email: "admin2",
   },
   {
     role: "normal",
-    email: "normal1"
+    email: "normal1",
   },
   {
     role: "normal",
-    email: "normal2"
-  }
+    email: "normal2",
+  },
 ];
-import { getAdminEmails, getEmail, filterAdmin } from '../sample';
+import { getAdminEmails, getEmail, filterAdmin } from "../sample";
 
 // @ts-ignore
 // expect.addSnapshotSerializer({
@@ -32,16 +32,16 @@ import { getAdminEmails, getEmail, filterAdmin } from '../sample';
 //   print: val => `"Role: ${val.role} - Email: ${val.email}"`,
 // });
 
-describe('', () => {
-  it('Should return email of admin', () => {
+describe("", () => {
+  it("Should return email of admin", () => {
     expect(getAdminEmails(data)).toMatchSnapshot();
   });
 
-  it('Should return email', () => {
+  it("Should return email", () => {
     expect(getEmail(data)).toMatchSnapshot();
   });
 
-  it('Should filter admin', () => {
+  it("Should filter admin", () => {
     expect(filterAdmin(data)).toMatchSnapshot();
   });
 });

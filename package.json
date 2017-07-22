@@ -7,7 +7,6 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@types/jest": "^19.2.3",
     "babel-eslint": "^6.1.2",
     "babel-jest": "^20.0.1",
     "babel-polyfill": "^6.23.0",
@@ -25,10 +24,11 @@
     "eslint-plugin-jest": "^20.0.1",
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-react": "^7.0.1",
-    "jest": "^20.0.1",
+    "jest": "^20.0.4",
     "ramda-fantasy": "^0.8.0"
   },
   "dependencies": {
+    "immutable": "^3.8.1",
     "lodash": "^4.17.4",
     "monet": "^0.8.10",
     "ramda": "^0.23.0"
