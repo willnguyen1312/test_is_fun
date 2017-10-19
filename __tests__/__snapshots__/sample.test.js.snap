@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Should filter admin 1`] = `
+exports[`Sample Should filter admin 1`] = `
 Array [
   Object {
     "email": "admin1",
@@ -13,7 +13,7 @@ Array [
 ]
 `;
 
-exports[`Should return email 1`] = `
+exports[`Sample Should return email 1`] = `
 Array [
   "admin1",
   "admin2",
@@ -22,7 +22,7 @@ Array [
 ]
 `;
 
-exports[`Should return email of admin 1`] = `
+exports[`Sample Should return email of admin 1`] = `
 Array [
   "admin1",
   "admin2",

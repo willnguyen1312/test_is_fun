@@ -32,7 +32,7 @@ import { getAdminEmails, getEmail, filterAdmin } from "../sample";
 //   print: val => `"Role: ${val.role} - Email: ${val.email}"`,
 // });
 
-describe("", () => {
+describe("Sample", () => {
   it("Should return email of admin", () => {
     expect(getAdminEmails(data)).toMatchSnapshot();
   });
